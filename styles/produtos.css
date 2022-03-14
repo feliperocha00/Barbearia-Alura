@@ -1,0 +1,47 @@
+/* css da pagina de produtos*/
+
+
+.produtos{
+    margin:50px 15px;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    columns: 3;
+}
+
+.produtos li{
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color:#C78C19;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
