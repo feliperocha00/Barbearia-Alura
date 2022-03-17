@@ -32,9 +32,8 @@ background: #BBBBBB;
 
 .caixa{
     position: relative;
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 nav{

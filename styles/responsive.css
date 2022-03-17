@@ -1,7 +1,14 @@
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+    
+    .principal, .conteudo-beneficios, .mapa-conteudo, .video{
         width:auto;
     }   
+
+    .caixa{
+        margin:0;
+        font-size:8px;
+        
+    }
 
     h1{
         text-align: center;
@@ -16,15 +23,12 @@
     }
 
     .produtos{
-        width: 100%;
+        width: 90%;
+        margin:auto;
         max-width: max-content;
         display: flex;
         flex-direction: column;
         gap: 15px;
-    }
-
-    .produtos li{
-        margin: 0;
     }
 }
 
