@@ -25,6 +25,11 @@ form label, form legend{
     border-radius: 10px;
 }
 
+.caixa-de-selecao{
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
 .checkbox{
     margin: 20px 0;
 }
